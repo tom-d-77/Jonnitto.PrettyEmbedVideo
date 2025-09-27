@@ -27,7 +27,9 @@
                 type: 'Neos\Media\Domain\Model\Asset'
                 label: Jonnitto.PrettyEmbedVideo:NodeTypes.Mixin.Tracks:properties.tracks.asset
                 editorOptions:
-                  accept: 'text/vtt'
+                  constraints:
+                    mediaTypes:
+                      - 'text/vtt'
               kind:
                 defaultValue: subtitles
                 label: Jonnitto.PrettyEmbedVideo:NodeTypes.Mixin.Tracks:properties.tracks.kind

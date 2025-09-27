@@ -14,4 +14,8 @@
           group: video
           position: 20
           editorOptions:
-            accept: 'video/*'
+            constraints:
+              mediaTypes:
+                - 'video/mp4'
+                - 'video/webm'
+                - 'video/ogg'
