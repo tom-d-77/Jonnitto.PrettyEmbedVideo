@@ -20,8 +20,7 @@
           group: captions
           position: 20
           editorOptions:
-            # https://github.com/mireo91/RepeatableFields/issues/19
-            buttonAddLabel: +
+            buttonAddLabel: 'Jonnitto.PrettyEmbedVideo:NodeTypes.Mixin.Tracks:properties.tracks.buttonAddLabel'
             properties:
               asset:
                 type: 'Neos\Media\Domain\Model\Asset'
