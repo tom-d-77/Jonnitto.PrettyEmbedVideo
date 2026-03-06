@@ -23,8 +23,7 @@
         }
     ],
     "require": {
-        "jonnitto/prettyembedhelper": "^6.6 || ^8.0 || dev-master",
-        "mireo91/repeatablefields": "^2.2.0"
+        "jonnitto/prettyembedhelper": "^6.6 || ^8.0 || dev-master"
     },
     "autoload": {
         "psr-4": {
