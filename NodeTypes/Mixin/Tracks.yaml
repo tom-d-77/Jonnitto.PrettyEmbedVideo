@@ -1,12 +1,12 @@
-  'Jonnitto.PrettyEmbedVideo:Mixin.Tracks':
-    properties:
-      tracks:
-        type: string
-        ui:
-          inspector:
-            hidden: true
-      setFirstTrackToDefault:
-        type: boolean
-        ui:
-          inspector:
-            hidden: true
+'Jonnitto.PrettyEmbedVideo:Mixin.Tracks':
+  properties:
+    tracks:
+      type: string
+      ui:
+        inspector:
+          hidden: true
+    setFirstTrackToDefault:
+      type: boolean
+      ui:
+        inspector:
+          hidden: true
